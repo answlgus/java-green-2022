@@ -1,6 +1,6 @@
 package coffeemaker;
 
-public abstract class Barista { // 추상 class
+public abstract class Barista { 
     abstract Coffee makeCoffee(MenuItem menuItem);
 
     abstract String getName();
